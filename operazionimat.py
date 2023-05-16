@@ -38,7 +38,7 @@ while True:
     while scelta_utente not in [1, 2, 3]:
         try:
             scelta_utente = int(input("Quadrato premi 1, cerchio premi 2, rettangolo premi 3: "))
-            print (immagini_geometriche[scelta_utente])
+            print (immagini_geometriche[scelta_utente - 1])
             if scelta_utente == 1:
                 quadrato()
             elif scelta_utente == 2:
